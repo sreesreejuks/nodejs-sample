@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/sreesreejuks/sample-projects/nodejs-sample'  // Change this to your repo
+                git 'https://github.com/sreesreejuks/sample-projects.git'  // Change this to your repo
             }
         }
 
