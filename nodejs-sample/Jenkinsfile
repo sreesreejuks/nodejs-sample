@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/your-repo.git'  // Change this to your repo
+                git 'https://github.com/sreesreejuks/sample-projects/nodejs-sample'  // Change this to your repo
             }
         }
 
@@ -37,7 +37,7 @@ pipeline {
             }
         }
 
-        stage('Push to Docker Hub') {
+        /*stage('Push to Docker Hub') {
             when { expression { return env.DOCKER_HUB_USER != null } }
             steps {
                 script {
@@ -46,7 +46,7 @@ pipeline {
                     sh "docker push ${DOCKER_HUB_USER}/${IMAGE_NAME}:latest"
                 }
             }
-        }
+        }*/
     }
 
     post {
