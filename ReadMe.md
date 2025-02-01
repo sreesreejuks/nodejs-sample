@@ -11,15 +11,15 @@
 ✅ Pushes the Docker image to Docker Hub (optional).
 
 ### 1️⃣ Prerequisites
-Before you start, make sure you have:
+* Before you start, make sure you have:
 
-Jenkins installed with Docker support.
+* Jenkins installed with Docker support.
 
-GitHub repository to store this project.
+* GitHub repository to store this project.
 
-Docker installed on the Jenkins server.
+* Docker installed on the Jenkins server.
 
-(Optional) Docker Hub account for pushing images.
+* (Optional) Docker Hub account for pushing images.
 ### 2️⃣ Project Structure
 bash
 Copy
@@ -83,6 +83,10 @@ Step 2: Jenkinsfile (Pipeline Script)
     ✅ Runs and tests the container
 
     ✅ Pushes to Docker Hub (optional)
+
+ 
+### Pipeline Code for this project 
+****
 
 ```yaml
 
